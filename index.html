@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAROLA - Transformando tus ideas en realidad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <h1>Sarola catering S.A.S</h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>Transformamos la alimentacion</h1>
+            <p>En SAROLA, nos enfocamos en tu salud.</p>
+            <a href="#contacto" class="btn">Contáctanos</a>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <h3>Numero</h3>
+                <p>+573128927782</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Ciudad</h3>
+                <p>Medellin - 050012</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolio-item-3.jpg" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="contact.php" method="POST">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SAROLA. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
